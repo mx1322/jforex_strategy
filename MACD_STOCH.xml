@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE preferences SYSTEM "http://java.sun.com/dtd/preferences.dtd">
+<preferences EXTERNAL_XML_VERSION="1.0">
+  <root type="user">
+    <map/>
+    <node name="strat_pref_node">
+      <map/>
+      <node name="presets">
+        <map/>
+        <node name="preset@Custom Preset">
+          <map>
+            <entry key="name" value="Custom Preset"/>
+            <entry key="id" value="Custom Preset"/>
+          </map>
+          <node name="parameter@amount">
+            <map>
+              <entry key="id" value="amount"/>
+              <entry key="type" value="double"/>
+              <entry key="value" value="0.1"/>
+            </map>
+          </node>
+          <node name="parameter@fixedPeriod">
+            <map>
+              <entry key="id" value="fixedPeriod"/>
+              <entry key="type" value="com.dukascopy.api.Period"/>
+              <entry key="value" value="15 Mins"/>
+            </map>
+          </node>
+          <node name="parameter@selectedInstrument">
+            <map>
+              <entry key="id" value="selectedInstrument"/>
+              <entry key="type" value="com.dukascopy.api.Instrument"/>
+              <entry key="value" value="EUR/USD"/>
+            </map>
+          </node>
+        </node>
+      </node>
+    </node>
+  </root>
+</preferences>
